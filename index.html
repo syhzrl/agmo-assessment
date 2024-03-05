@@ -1,61 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agmo Studios Assessment</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="timer.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Agmo Studios Assessment</title>
-  <link rel="stylesheet" href="style.css" />
-  <script type="text/javascript" src="timer.js"></script>
-</head>
+  <body>
+    <div class="main-container">
+      <div class="title-container">
+        <div class="title-inner-container">
+          <img src="agmo_logo.png" class="title-img" />
 
-<body>
-  <div class="main-container">
-    <div class="title-container">
-      <div class="title-inner-container">
-        <img src="agmo_logo.png" class="title-img" />
-
-        <p class="title">Making Lives Better with Technology</p>
-      </div>
-    </div>
-
-
-    <div class="content-container">
-      <div class="info">
-        <img src="icon_info.png" class="info-icon" />
-
-        <div>
-          <p>Market to close on</p>
-          <p class="info-date">Mon, 17 October 2022, 10:00 PM</p>
+          <p class="title">Making Lives Better with Technology</p>
         </div>
       </div>
 
-      <p id="timer"></p>
+      <div class="content-container">
+        <div class="info">
+          <img src="icon_info.png" class="info-icon" />
 
-      <p>Market Operating Hours</p>
+          <div>
+            <p>Market to close on</p>
+            <p class="info-date">Mon, 17 October 2022, 10:00 PM</p>
+          </div>
+        </div>
 
-      <h2>TRADING</h2>
+        <div class="timer-container">
+          <h2 id="timer" class="timer"></h2>
+          <img src="icon_question.png" class="icon-question" />
+        </div>
 
+        <p class="market-text">Market Operating Hours</p>
 
-      <ul>
-        <li>list here</li>
-        <li>list here</li>
-      </ul>
-      
-      <div class="divider-line"></div>
+        <h2 class="list-title">TRADING</h2>
 
-      <h2>ORDER BOOK</h2>
+        <ul class="list-container">
+          <li>
+            <p>Wednesday</p>
+            <p>10:00 AM - 10:00 PM</p>
+          </li>
 
-      <ul>
-        <li>list here</li>
-        <li>list here</li>
-        <li>list here</li>
-        <li>list here</li>
-        <li>list here</li>
-      </ul>
+          <li>
+            <p>Thursday</p>
+            <p>10:00 AM - 10:00 PM</p>
+          </li>
+        </ul>
 
+        <div class="divider-line"></div>
+
+        <h2 class="list-title">ORDER BOOK</h2>
+
+        <ul class="list-container">
+          <li>
+            <p>Monday</p>
+            <p>10:00 AM Onwards</p>
+          </li>
+
+          <li>
+            <p>Tuesday</p>
+            <p>All Day</p>
+          </li>
+
+          <li>
+            <p>Wednesday</p>
+            <p>All Day</p>
+          </li>
+
+          <li>
+            <p>Thursday</p>
+            <p>All Day</p>
+          </li>
+
+          <li>
+            <p>Friday</p>
+            <p>Until 10:00 PM</p>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
