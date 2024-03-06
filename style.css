@@ -25,10 +25,9 @@ li {
 }
 
 .main-container {
-  height: 100svh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 }
 
 .title-container {
@@ -51,7 +50,6 @@ li {
 
 .content-container {
   background-color: white;
-  height: 100%;
   padding: 4rem 2rem;
   display: flex;
   flex-direction: column;
@@ -166,9 +164,33 @@ li {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    overflow: auto;
   }
 
   .list-container {
     padding-right: 6rem;
   }
+}
+
+.main-test {
+  height: 100vh;
+  display: flex;
+  flex: 1;
+  /* overflow: hidden; */
+}
+
+.title-test {
+  /* height: 100%; */
+  width: 45%;
+  background-color: pink;
+}
+
+.content-test {
+  /* height: 100%; */
+  width: 55%;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 4rem;
 }
